@@ -1,0 +1,53 @@
+/* Blank stylesheet */
+
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 2em 2em 1.5em 2em;
+  max-width: 500px;
+  margin: 3em auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.2em 0 0 0;
+}
+
+.card ul li {
+  margin: 0.5em 0;
+}
+
+h1 {
+  font-size: 3em;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 2em;
+  color: slategray;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6;
+}
